@@ -1,0 +1,25 @@
+/* Basic body styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Style for the navbar */
+.nav-wrapper {
+  margin-bottom: 20px;
+}
+
+/* Container to center the content */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Heading styles */
+h4, h5 {
+  margin-bottom: 20px;
+}
+
+/* Input field style */
+input[type="text"] {
+  margin-bottom: 10px;
+}

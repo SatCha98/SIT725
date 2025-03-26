@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <!-- Link to Materialize CSS -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+      rel="stylesheet"
+    />
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-wrapper teal">
+        <a href="#" class="brand-logo center">My To-Do List</a>
+      </div>
+    </nav>
+
+    <div class="container">
+      <h4>Add a Task</h4>
+      <div class="row">
+        <form class="col s12" id="task-form">
+          <div class="row">
+            <div class="input-field col s10">
+              <input id="task" type="text" required />
+              <label for="task">New Task</label>
+            </div>
+            <div class="input-field col s2">
+              <button class="btn waves-effect waves-light" type="submit">Add</button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <h5>Tasks</h5>
+      <ul class="collection" id="task-list"></ul>
+    </div>
+
+    <!-- First, include jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+    <!-- Link to External JS (script.js) -->
+    <script src="script.js"></script>
+    
+    <!-- Materialize JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </body>
+</html>
